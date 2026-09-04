@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=prod
+#SBATCH --job-name=ocsvm
 #SBATCH --output=logs/output_%j.log
 #SBATCH --error=logs/error_%j.log
 #SBATCH --partition=defq
