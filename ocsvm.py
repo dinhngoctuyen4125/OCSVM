@@ -26,7 +26,7 @@ def main():
     parser.add_argument("--model_name_or_path", default="tummitum/codebert-deprecated", type=str)
     parser.add_argument("--data_path", default="./data/codellama/D_forget.json", type=str)
     parser.add_argument("--output_dir", default="./ckpt", type=str)
-    parser.add_argument("--max_seq_length", default=1024, type=int)
+    parser.add_argument("--max_seq_length", default=512, type=int)
     parser.add_argument("--batch_size", default=8, type=int)
     parser.add_argument("--seed", type=int, default=2026)
     parser.add_argument("--nu", type=float, default=0.1)
