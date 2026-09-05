@@ -11,5 +11,5 @@ pip install -r requirements.txt
 ## 2. Run
 
 ```bash
-sudo nohup bash train_ood.sh > logs/train_ood.log 2>&1 &
+sudo nohup bash run_ocsvm.sh > logs/run_ocsvm.log 2>&1 &
 ```
